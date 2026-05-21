@@ -20,7 +20,7 @@ use App\Http\Controllers\Client\ClientDashboardController;
 
 // ─── PUBLIC ROUTES ─────────────────────────────────────────────
 Route::get('/', function () {
-    return view('home');           // ← This will be our new homepage
+    return view('home');           // ← This will be our homepage
 })->name('home');
 
 //EVENTS
