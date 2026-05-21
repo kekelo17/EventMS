@@ -9,7 +9,6 @@ USE eventms;
 -- 1. USERS (22 rows)
 -- =============================================
 INSERT INTO users (name, email, password, role, phone, is_active, email_verified_at, created_at) VALUES
-('Super Admin', 'admin@eventms.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uRPY85OVW', 'admin', '655123456', 1, NOW(), NOW()),
 ('Jean Paul Biya', 'jeanpaul@gmail.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uRPY85OVW', 'organiser', '677889900', 1, NOW(), NOW()),
 ('Marie Claire Essomba', 'marieclaire@gmail.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uRPY85OVW', 'client', '699112233', 1, NOW(), NOW()),
 ('Samuel Eto\'o', 'samuel@eto.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uRPY85OVW', 'organiser', '655445566', 1, NOW(), NOW()),
